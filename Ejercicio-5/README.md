@@ -4,15 +4,19 @@
 # ANALISIS
 Variables de entrada (input)
 
-Gasto_agua
+Gasto_mensual
 
 variables de proceso (processing)
 
-Pago = Es el monto a pagar dependiendo del consumo de agua de la vivienda
+Gasto_agua <=50 el costo es la cuota fija
 
---Variables de salida (output)
+Gasto_agua <=200 el costo de agua es la cuota_fija+2000*Gasto_mensual-50
 
-Pago: Es el monto requerido por la empresa a pagar
+Gasto_agua >200 el costo de agua es la cuota_fija+3000*Gasto_mensual-50
+
+Variables de salida (output)
+
+Costo agua mes: Es el monto requerido por la empresa a pagar
 
 # DISEÑO
 
