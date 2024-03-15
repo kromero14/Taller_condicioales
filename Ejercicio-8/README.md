@@ -17,6 +17,6 @@ A % B = 0 : esto se hace para saber si el resultado es 0 si es haci son multiplo
 Print : dice si son multiplos o no
 # DISEÑO
 
-![diagrama de flujo](diagrama.png "diagrama de flujo")
+![Diagrama de flujo](diagrama.png "diagrama de flujo")
 
 # CONSTRUCCION
